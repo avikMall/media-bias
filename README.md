@@ -1,2 +1,2 @@
 # media-bias
-This is a news aggregation and webscraping project to show the bias in news media. CNN and FOX news articles were sorted through a matching algorithm and compared using sentiment analysis (uploaded elsewhere). ). 
+This is a news aggregation, webscraping, and natural language processing project to show the bias in news media. First, CNN and FOX news articles were webscraped from their respective news websites. Then each headline was put through a matching process to assign them to the most similar headline from the opposing news source. Finally, this data is stored in a remote FireBase Database. This data can be used to observe the bias and differeing viewpoints by two major news outlets.
